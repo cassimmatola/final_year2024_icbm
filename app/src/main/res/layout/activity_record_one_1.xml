@@ -1,0 +1,419 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="16dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Date:"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_date"
+                android:layout_width="244dp"
+                android:layout_height="wrap_content"
+                android:inputType="none"
+                android:focusable="false"
+                android:drawableRight="@drawable/ic_baseline_calendar"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="3dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Teacher:"
+                android:textSize="15sp"
+                android:layout_marginStart="10dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_teacher"
+                android:layout_width="230dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Student Name:"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_student"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="AGRICULTURE:"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_agr"
+                android:layout_width="190dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="256dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:text="BIOLOGY:"
+                android:textColor="@color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_bio"
+                android:layout_width="170dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHEMISTRY:"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_chem"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="CHICHEWA:"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_chi"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ENGLISH:"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_eng"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="GEOGRAPHY:"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_geo"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="MATHEMATICS:"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_maths"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="PHYSICS:"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_phys"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SOCIAL STUDIES:"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_social"
+                android:layout_width="144dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Total:"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"
+                android:layout_gravity="center"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_total"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Average:"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_average"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+            <TextView
+                android:layout_gravity="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Grade:"
+                android:textSize="15sp"
+                android:textColor="@color/black"
+                android:layout_marginStart="16dp"
+                android:textStyle="bold"/>
+
+            <EditText
+                android:layout_gravity="center"
+                android:id="@+id/m_grade"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/black"/>
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/m_ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="Ok"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/registerBtn" />
+            <Button
+                android:id="@+id/m_save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:text="save"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/registerBtn" />
+            <Button
+                android:id="@+id/m_clear"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="0dp"
+                android:layout_marginBottom="16dp"
+                android:text="clear"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/registerBtn" />
+
+
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+
+</ScrollView>

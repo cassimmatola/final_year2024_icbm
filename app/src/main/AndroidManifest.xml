@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.project.gradingmanagementsystem">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.GradingManagementSystem"
+        tools:targetApi="31">
+        <activity
+            android:name=".Form4Adapters.Form4Term3Details"
+            android:exported="false" />
+        <activity
+            android:name=".Form4Adapters.Form4Term3Update"
+            android:exported="false" />
+        <activity
+            android:name=".Form4Adapters.Form4Term2Update"
+            android:exported="false" />
+        <activity
+            android:name=".Form4Adapters.Form4Term2Details"
+            android:exported="false" />
+        <activity
+            android:name=".Form4Adapters.Form4Term1Update"
+            android:exported="false" />
+        <activity
+            android:name=".Form4Adapters.Form4Term1Details"
+            android:exported="false" />
+        <activity
+            android:name=".Form3Adapters.Form3Term3Update"
+            android:exported="false" />
+        <activity
+            android:name=".Form3Adapters.Form3Term3Details"
+            android:exported="false" />
+        <activity
+            android:name=".Form3Adapters.Form3Term2Update"
+            android:exported="false" />
+        <activity
+            android:name=".Form3Adapters.Form3Term2Details"
+            android:exported="false" />
+        <activity
+            android:name=".Form3Adapters.Form3Term1Update"
+            android:exported="false" />
+        <activity
+            android:name=".Form3Adapters.Form3Term1Details"
+            android:exported="false" />
+        <activity
+            android:name=".Form2Adapters.Form2Term3Update"
+            android:exported="false" />
+        <activity
+            android:name=".Form2Adapters.Form2Term3Details"
+            android:exported="false" />
+        <activity
+            android:name=".Form2Adapters.Form2Term2Update"
+            android:exported="false" />
+        <activity
+            android:name=".Form2Adapters.Form2Term2Details"
+            android:exported="false" />
+        <activity
+            android:name=".Form2Adapters.Form2Term1Update"
+            android:exported="false" />
+        <activity
+            android:name=".Form2Adapters.Form2Term1Details"
+            android:exported="false" />
+        <activity
+            android:name=".Form1Adapters.Form1Term3Update"
+            android:exported="false" />
+        <activity
+            android:name=".Form1Adapters.Form1Term3Details"
+            android:exported="false" />
+        <activity
+            android:name=".Form1Adapters.Form1Term2Update"
+            android:exported="false" />
+        <activity
+            android:name=".Form1Adapters.Form1Term2Details"
+            android:exported="false" />
+        <activity
+            android:name=".Form1Adapters.Form1Term1Update"
+            android:exported="false" />
+        <activity
+            android:name=".Form1Adapters.Form1Term1Deatails"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.StudentUpdateActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.StudentDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.NotificationActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_4.FourTerm_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_4.FourTerm_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_4.FourTerm_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_4.Form_4Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_3.ThreeTerm_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_3.ThreeTerm_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_3.ThreeTerm_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_3.Form_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_2.TwoTerm_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_2.TwoTerm_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_2.TwoTerm1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_2.Form_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_1.OneTerm_3Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_1.OneTerm_2Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_1.OneTerm_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.Form_1.Form_1Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.ClassesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.ShowNoteActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Teacher.TeacherActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Admin.AdminActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

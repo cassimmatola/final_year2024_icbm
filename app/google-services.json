@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "977502254991",
+    "project_id": "grading-system-9c939",
+    "storage_bucket": "grading-system-9c939.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:977502254991:android:4d58adfb294300027cfdfa",
+        "android_client_info": {
+          "package_name": "com.project.gradingmanagementsystem"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCi_mgO7CHQmRY8AP2fL21Y2uRHT0fnDmc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
